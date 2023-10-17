@@ -47,7 +47,7 @@ android {
 }
 
 dependencies {
-  implementation("com.rudderstack.android.sdk:core:1.19.1")
+  implementation("com.rudderstack.android.sdk:core:1.20.0")
 
   implementation("androidx.core:core-ktx:1.9.0")
   implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
