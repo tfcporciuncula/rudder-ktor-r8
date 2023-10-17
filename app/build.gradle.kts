@@ -47,7 +47,7 @@ android {
 }
 
 dependencies {
-//  implementation("com.rudderstack.android.sdk:core:1.20.0")
+  implementation("com.rudderstack.android.sdk:core:1.20.0")
   implementation("io.ktor:ktor-client-okhttp:2.3.5")
 
   implementation("androidx.core:core-ktx:1.9.0")
