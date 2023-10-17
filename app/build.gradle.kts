@@ -47,6 +47,9 @@ android {
 }
 
 dependencies {
+  // Build only fails in two occasions:
+  // - Rudder being on a version before 1.20.0 (like 1.19.1)
+  // - Having both Rudder and Ktor at the same time as dependencies
   implementation("com.rudderstack.android.sdk:core:1.20.0")
   implementation("io.ktor:ktor-client-okhttp:2.3.5")
 
